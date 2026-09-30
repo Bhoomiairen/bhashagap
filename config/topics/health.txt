@@ -1,0 +1,71 @@
+# Everyday health topics people in India look up. One English Wikipedia title per line.
+# Redirects are fine (e.g. "Dengue" -> "Dengue fever"); titles that don't resolve are reported and skipped.
+Tuberculosis
+Dengue fever
+Malaria
+Typhoid fever
+Cholera
+Diarrhea
+Pneumonia
+Hepatitis B
+Hepatitis A
+HIV/AIDS
+Diabetes
+Hypertension
+Anemia
+Iron-deficiency anemia
+Malnutrition
+Stunted growth
+Asthma
+Chronic obstructive pulmonary disease
+Cancer
+Breast cancer
+Cervical cancer
+Oral cancer
+Heart failure
+Myocardial infarction
+Stroke
+Snakebite
+Rabies
+Leprosy
+Measles
+Polio
+Chikungunya
+Japanese encephalitis
+Visceral leishmaniasis
+Lymphatic filariasis
+Scrub typhus
+COVID-19
+Influenza
+Jaundice
+Kidney stone disease
+Chronic kidney disease
+Hypothyroidism
+Major depressive disorder
+Anxiety disorder
+Schizophrenia
+Epilepsy
+Dementia
+Heat stroke
+Dehydration
+Oral rehydration therapy
+Breastfeeding
+Vaccination
+Menstruation
+Polycystic ovary syndrome
+Pregnancy
+Prenatal care
+Postpartum depression
+Birth control
+Obesity
+Vitamin D deficiency
+Sickle cell disease
+Thalassemia
+Glaucoma
+Cataract
+Hand washing
+First aid
+Cardiopulmonary resuscitation
+Antimicrobial resistance
+Tobacco smoking
+Alcoholism

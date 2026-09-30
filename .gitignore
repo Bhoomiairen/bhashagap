@@ -1,0 +1,9 @@
+# raw API responses: re-downloadable, can be large
+data/raw/
+# the database is rebuilt from the cache in seconds
+data/*.duckdb
+data/*.duckdb.wal
+__pycache__/
+.pytest_cache/
+.venv/
+.DS_Store

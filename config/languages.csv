@@ -1,0 +1,23 @@
+code,name,native_name,script,speakers_millions,bytes_per_char
+hi,Hindi,हिन्दी,Devanagari,528.3,3
+bn,Bengali,বাংলা,Bengali,97.2,3
+mr,Marathi,मराठी,Devanagari,83.0,3
+te,Telugu,తెలుగు,Telugu,81.1,3
+ta,Tamil,தமிழ்,Tamil,69.0,3
+gu,Gujarati,ગુજરાતી,Gujarati,55.5,3
+ur,Urdu,اردو,Perso-Arabic,50.8,2
+bh,Bhojpuri,भोजपुरी,Devanagari,50.6,3
+kn,Kannada,ಕನ್ನಡ,Kannada,43.7,3
+or,Odia,ଓଡ଼ିଆ,Odia,37.5,3
+ml,Malayalam,മലയാളം,Malayalam,34.8,3
+pa,Punjabi,ਪੰਜਾਬੀ,Gurmukhi,33.1,3
+as,Assamese,অসমীয়া,Bengali,15.3,3
+mai,Maithili,मैथिली,Devanagari,13.6,3
+sat,Santali,ᱥᱟᱱᱛᱟᱲᱤ,Ol Chiki,7.4,3
+ks,Kashmiri,کٲشُر,Perso-Arabic,6.8,2
+ne,Nepali,नेपाली,Devanagari,2.9,3
+sd,Sindhi,سنڌي,Perso-Arabic,2.8,2
+gom,Konkani,कोंकणी,Devanagari,2.3,3
+tcy,Tulu,ತುಳು,Kannada,1.8,3
+mni,Manipuri,ꯃꯤꯇꯩꯂꯣꯟ,Meitei,1.8,3
+sa,Sanskrit,संस्कृतम्,Devanagari,0.02,3

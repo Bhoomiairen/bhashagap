@@ -1,0 +1,12 @@
+# The most widely documented diseases and medical conditions:
+# items with an ICD-10 code (P494) that have an English Wikipedia article,
+# ranked by how many Wikipedias cover them (a standard proxy for importance).
+SELECT DISTINCT ?item ?enTitle ?sitelinks WHERE {
+  ?item wdt:P494 ?icd10 ;
+        wikibase:sitelinks ?sitelinks .
+  ?article schema:about ?item ;
+           schema:isPartOf <https://en.wikipedia.org/> ;
+           schema:name ?enTitle .
+}
+ORDER BY DESC(?sitelinks)
+LIMIT 300
