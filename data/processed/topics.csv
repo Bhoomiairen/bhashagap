@@ -1,0 +1,510 @@
+qid,en_title,en_length,en_chars,categories,en_views_12m
+Q11660,Artificial intelligence,282146,86244,science,3661437
+Q10693,Periodic table,256381,95715,science,3338660
+Q405,Moon,308532,88689,science,2006752
+Q230003,Lok Sabha,61852,29252,rights,1863666
+Q12052688,Aadhaar,139370,48405,rights,1526110
+Q544,Solar System,239947,61428,science,1477613
+Q12204,Tuberculosis,180151,52944,diseases;health,1471158
+Q38404,Autism,221946,60756,diseases,1450975
+Q75,Internet,143869,53187,science,1434012
+Q181923,Attention deficit hyperactivity disorder,296180,82239,diseases,1358012
+Q208166,Borderline personality disorder,181074,57920,diseases,1330677
+Q84263196,COVID-19,288534,71534,diseases;health,1304689
+Q10737,Suicide,196470,55857,diseases,1280610
+Q36956,Leprosy,139746,48752,health,1266813
+Q161790,Asperger syndrome,122845,45425,diseases,1255761
+Q244730,Rajya Sabha,50230,14060,rights,1230376
+Q183134,Sepsis,140223,54761,diseases,1187188
+Q19939,Tiger,158799,50989,science,1171170
+Q41112,Schizophrenia,191655,58041,diseases;health,1162985
+Q68,Computer,140673,55253,science,1157780
+Q8392,Zoophilia,27833,12347,diseases,1108861
+Q51993,Ebola,205035,62347,diseases,1106892
+Q395,Mathematics,172387,55879,science,1105004
+Q39222,Rabies,106842,34867,health,1085297
+Q131755,Bipolar disorder,200235,72774,diseases,1064399
+Q201989,Lyme disease,249489,86723,diseases,1041266
+Q188874,Colorectal cancer,161682,52663,diseases,924887
+Q282142,Glioblastoma,88258,28384,diseases,912919
+Q190564,Huntington's disease,150908,57328,diseases,910640
+Q12214,Smallpox,82632,34138,diseases,903042
+Q12192,Pneumonia,130838,48541,diseases;health,889369
+Q174589,Agoraphobia,47725,17372,diseases,888541
+Q217519,Bubonic plague,56091,20938,diseases,879000
+Q181843,Necrophilia,75792,26123,diseases,869866
+Q191779,Tourette syndrome,140241,49477,diseases,849755
+Q178059,Paraphilia,34099,11698,diseases,845489
+Q205764,Endometriosis,108315,44908,diseases,835130
+Q178190,Obsessive–compulsive disorder,181687,65974,diseases,804935
+Q503,Banana,139404,46424,agriculture,788629
+Q125928,Climate change,331332,63899,science,783050
+Q12199,HIV/AIDS,221461,64926,diseases;health,748106
+Q7430,DNA,167549,58843,science,677163
+Q118418,Antisocial personality disorder,135544,48687,diseases,664192
+Q10998,Potato,93065,32917,agriculture,657748
+Q189580,Acromegaly,41488,15944,diseases,649893
+Q12152,Myocardial infarction,134080,46670,diseases;health,644882
+Q477108,Constitution of India,129902,43298,rights,637157
+Q79793,Measles,126108,38783,health,625712
+Q5142470,Raynaud syndrome,33721,12750,diseases,623454
+Q23501,Tomato,89084,29258,agriculture,603258
+Q42844,Major depressive disorder,223523,66010,health,584300
+Q182155,Shingles,82125,28132,diseases,582344
+Q223102,Peritonitis,22854,10414,diseases,578931
+Q11575,Maize,94268,30365,agriculture,577892
+Q129279,Dysentery,37557,16690,diseases,577801
+Q183548,Voyeurism,39714,18365,diseases,572194
+Q12195,Polio,133530,48505,health,557780
+Q8486,Coffee,147506,56507,agriculture,556842
+Q83319,Typhoid fever,98999,40116,diseases;health,550428
+Q178194,Cystic fibrosis,175019,66785,diseases,528559
+Q208414,Lymphoma,105347,22968,diseases,519499
+Q267907,Hypersexuality,47516,13884,diseases,517633
+Q134649,Diphtheria,64942,25609,diseases,515585
+Q55998,Pleurisy,26712,15456,diseases,515296
+Q11982,Photosynthesis,111066,49414,science,513872
+Q12090,Cholera,135272,54083,health,513798
+Q12156,Malaria,207401,70202,health,512952
+Q275459,Acute radiation syndrome,69210,29436,diseases,512459
+Q199804,Chronic obstructive pulmonary disease,212507,78999,diseases;health,509642
+Q194101,Dwarfism,42855,22305,diseases,504505
+Q152234,Edema,30422,15591,diseases,503823
+Q7944,Earthquake,85116,38839,science,500777
+Q135005,Phishing,59385,18624,science,498694
+Q12202,Stroke,197626,71282,health,495627
+Q7868,Cell (biology),116403,39390,science,494340
+Q37383,Peanut,76001,23301,agriculture,490383
+Q167178,Scabies,60427,23036,diseases,490308
+Q184627,Human papillomavirus infection,153738,48361,diseases,489762
+Q12078,Cancer,195947,75428,diseases;health,488931
+Q202387,Post-traumatic stress disorder,223126,69543,diseases,488291
+Q169,Mango,51935,15789,agriculture,478546
+Q154865,Botulism,91660,39589,diseases,474405
+Q207855,Amblyopia,42156,14843,diseases,467887
+Q185034,Sickle cell disease,138307,52242,health,467373
+Q207367,Infectious mononucleosis,56839,20604,diseases,461656
+Q163865,Scurvy,79923,32052,diseases,461489
+Q558077,Williams syndrome,54775,23482,diseases,458811
+Q133244,Jaundice,54381,24740,diseases;health,454356
+Q2836,Aphasia,102008,49364,diseases,454138
+Q154878,Toxoplasmosis,160316,57070,diseases,453401
+Q204933,Decapitation,80333,29913,diseases,449861
+Q202849,Turner syndrome,82931,37839,diseases,448556
+Q5090,Rice,99793,29473,agriculture,444227
+Q22645,Smartphone,121722,51594,science,440423
+Q83030,Dementia,206652,77229,diseases;health,438437
+Q8092,Tropical cyclone,216051,63761,science,438246
+Q159701,Glaucoma,91520,39958,diseases;health,434758
+Q3342808,Coconut,115405,35352,agriculture,429158
+Q1072,Heart,146224,77464,science,425972
+Q11995,Pregnancy,153415,57229,diseases;health,418922
+Q498237,Schizoid personality disorder,166233,45443,diseases,416766
+Q180614,Melanoma,161394,53003,diseases,416231
+Q44727,Chickenpox,65109,22273,diseases,415238
+Q9121,Atom,129591,52852,science,415213
+Q188605,Emphysema,44247,18558,diseases,415016
+Q189561,Narcolepsy,78706,34995,diseases,414765
+Q844590,Body dysmorphic disorder,43651,18650,diseases,414692
+Q845787,Histrionic personality disorder,58847,22024,diseases,413915
+Q339221,Gynecomastia,65579,29244,diseases,411031
+Q42562,Turmeric,36712,14751,agriculture,406929
+Q332062,Sorghum,58059,12417,agriculture,406358
+Q41861,Hypertension,139032,40013,diseases;health,405125
+Q8070,Tsunami,69315,35680,science,405008
+Q11006,Soybean,145169,56228,agriculture,402735
+Q844717,Spina bifida,89693,34788,diseases,402245
+Q81375,Chickpea,47076,16954,agriculture,397782
+Q183560,Intellectual disability,123571,56755,diseases,393944
+Q48318,Urea,64782,29233,agriculture,393673
+Q43084,Black pepper,47871,22414,agriculture,391848
+Q12206,Diabetes,145939,49224,health,391102
+Q12198,Sexually transmitted infection,96878,37608,diseases,391094
+Q41571,Epilepsy,176678,69577,health,391064
+Q193840,Asphyxia,26950,11058,diseases,388124
+Q2840,Influenza,118149,65847,diseases;health,386242
+Q41478,Hemorrhoid,58906,21826,diseases,383026
+Q6097,Tea,94528,40799,agriculture,380606
+Q12725,Electricity,87463,43194,science,379916
+Q15645384,Wheat,144857,41387,agriculture,377680
+Q958797,Scleroderma,42297,12639,diseases,376931
+Q8087,Geometry,110687,35083,science,375368
+Q192309,Tinnitus,88171,26178,diseases,374845
+Q30953,Dengue fever,78004,25697,diseases;health,370650
+Q1063,Evolution,247810,70221,science,368547
+Q11094,Hashimoto's thyroiditis,114441,44989,diseases,364510
+Q133076,Hernia,48946,22877,diseases,360224
+Q131226,Lentil,39802,20263,agriculture,359852
+Q15326,Alcoholism,168873,57948,diseases;health,349033
+Q950511,Résumé,22428,13968,money,348250
+Q33741,Lightning,141449,56232,science,346631
+Q202758,Hypoglycemia,67398,30807,diseases,345186
+Q14625808,Cardamom,34917,16060,agriculture,344530
+Q168403,Myopia,97221,28975,diseases,344334
+Q16501,Hypothyroidism,76835,32192,diseases;health,342960
+Q622527,Self-harm,102608,35180,diseases,339067
+Q181754,Heart failure,150365,57324,diseases;health,337830
+Q216866,Conjoined twins,78564,35100,diseases,336659
+Q199615,Encephalitis,30035,8636,diseases,336294
+Q23485,Onion,74419,26623,agriculture,335851
+Q62736,Osteoarthritis,137426,35200,diseases,335239
+Q83931,Locust,58414,21091,agriculture,332735
+Q3968,Algebra,142169,42402,science,332571
+Q133780,Plague (disease),34913,17216,diseases,332456
+Q168805,Gangrene,28765,11447,diseases,332222
+Q229058,ISRO,227537,59331,science,326780
+Q644318,Vasculitis,33338,7740,diseases,324665
+Q65049774,Chandrayaan-3,101404,29450,science,320156
+Q40878,Diarrhea,90955,33235,diseases;health,318324
+Q213600,Sleep apnea,105235,33407,diseases,317342
+Q47912,Lung cancer,94919,46624,diseases,315597
+Q27679782,Goods and Services Tax (India),75814,30929,rights,314201
+Q492038,Human brain,176751,77400,science,309690
+Q565276,Sciatica,47497,18504,diseases,302026
+Q12135,Mental disorder,205257,77997,diseases,293215
+Q11457,Cotton,120265,55435,agriculture,292820
+Q5445,Anemia,88673,26212,health,291931
+Q9649,Human digestive system,70121,44703,science,290835
+Q181257,Prostate cancer,94185,44296,diseases,290412
+Q101971,Wart,43944,15260,diseases,290355
+Q36940,Sugarcane,89684,38376,agriculture,290191
+Q167844,Conjunctivitis,38410,16454,diseases,288432
+Q154430,Anxiety,101238,35146,diseases,287626
+Q161380,Credit card,139872,75325,money,284146
+Q1036696,Hypothermia,63670,26884,diseases,283830
+Q152401,Foot-and-mouth disease,91059,37583,diseases,282253
+Q1869874,Insomnia,141800,50908,diseases,279938
+Q209647,Delirium tremens,35302,15558,diseases,278001
+Q42967,Monsoon,55763,21912,agriculture,277392
+Q270673,Personality disorder,142761,57410,diseases,275831
+Q12171,Menstruation,66709,23808,health,275371
+Q24949969,Unified Payments Interface,186042,60749,rights,273864
+Q7873,Blood,60754,32752,science,272423
+Q3123403,Elections in India,89955,20704,rights,272153
+Q916280,Restless legs syndrome,78978,24438,diseases,270697
+Q161801,SIDS,62098,19475,diseases,269721
+Q8452,Abortion,210303,55676,diseases,267136
+Q460591,Decompression sickness,152048,71636,diseases,266977
+Q35865,Inflation,135500,67454,money,266051
+Q159557,Coma,52998,23953,diseases,265859
+Q3345485,Fundamental rights in India,71407,42759,rights,263689
+Q3260656,"Mahatma Gandhi National Rural Employment Guarantee Act, 2005",98222,36952,rights,263085
+Q778502,Vaginal discharge,29029,15150,diseases,262825
+Q12174,Obesity,191280,57328,health,262816
+Q243257,Chikungunya,61301,19711,diseases;health,261355
+Q12705,Renewable energy,210579,58829,science,253955
+Q189389,Aneurysm,50908,20443,diseases,251816
+Q213373,Ataxia,57815,22694,diseases,250260
+Q35869,Asthma,95740,42721,health,250042
+Q134003,Haemophilia,66872,27434,diseases,249751
+Q8084905,Autoimmune disease,72579,29742,diseases,249539
+Q475000,Stock market,74478,39801,money,248718
+Q184674,Erectile dysfunction,75209,24968,diseases,247906
+Q12125,Common cold,60394,18572,diseases,247605
+Q100732653,Long COVID,95306,32749,diseases,247578
+Q187440,Hives,54543,25591,diseases,247240
+Q178790,Trade union,86912,33334,money,245423
+Q180762,Angina,59351,25983,diseases,245018
+Q185935,Mania,53220,21635,diseases,243424
+Q57751738,Coronavirus,97061,32826,diseases,241577
+Q61866751,Pradhan Mantri Kisan Samman Nidhi,11226,1880,agriculture,238738
+Q127724,Cataract,36868,21299,health,238697
+Q608259,Trichotillomania,45954,17644,diseases,238611
+Q17101973,Voter ID (India),9487,2719,rights,237228
+Q448310,Seborrhoeic dermatitis,37805,15362,diseases,236930
+Q156537,Domestic violence,350804,107761,diseases,234267
+Q3025883,Type 2 diabetes,108067,29418,diseases,232804
+Q484447,Mung bean,52669,22792,agriculture,229760
+Q183129,Water pollution,62424,24622,science,229706
+Q6853,Hepatitis B,94911,33596,diseases;health,227591
+Q133823,Migraine,116013,37489,diseases,227585
+Q168800,Anaphylaxis,72705,25845,diseases,227075
+Q189331,Arrhythmia,44099,23628,diseases,226422
+Q185325,Cardiopulmonary resuscitation,140874,45638,health,225304
+Q461486,Heterochromia,28593,11548,diseases,223143
+Q221159,Schistosomiasis,99385,45282,diseases,221478
+Q203601,Pneumothorax,69549,34546,diseases,218900
+Q501829,Gigantism,20507,7937,diseases,218252
+Q229256,Dermatitis,70273,22957,diseases,215567
+Q110315,Lead poisoning,215893,79977,diseases,215033
+Q164655,Abscess,36000,13077,diseases,214128
+Q43183,Insurance,123948,81292,money,213837
+Q389735,Cardiovascular disease,150261,43012,diseases,212018
+Q3908516,Entrepreneurship,130807,59374,money,211217
+Q10686316,Vertigo,42978,16572,diseases,209396
+Q128581,Breast cancer,146514,62396,diseases;health,208677
+Q81867,Albinism,77607,35718,diseases,207673
+Q201424,Nuclear warfare,126975,70457,diseases,207121
+Q130741,Hallucination,74772,30830,diseases,205157
+Q745832,Stillbirth,60611,20811,diseases,204068
+Q38933,Fever,86009,23920,diseases,202311
+Q223867,Brain death,28205,12849,diseases,200717
+Q125367,Carbon monoxide poisoning,107034,38947,diseases,199333
+Q79928,Acne,171723,65080,diseases,198911
+Q15401700,Permanent account number,21536,12366,rights,197148
+Q185137,Thalassemia,76707,28363,diseases;health,196581
+Q696490,Panic attack,69379,30455,diseases,196064
+Q544006,Anxiety disorder,79887,28487,health,194885
+Q1368943,Intracerebral hemorrhage,47259,17298,diseases,194355
+Q193889,Ascites,27903,11956,diseases,194271
+Q506616,Drowning,129238,58447,diseases,194123
+Q840143,Streptococcal pharyngitis,33197,9983,diseases,191860
+Q174876,Breastfeeding,260645,102712,health,189720
+Q153356,Chlamydia,48215,15088,diseases,189238
+Q164778,Rotavirus,90875,25403,diseases,188770
+Q177708,Menopause,129604,55019,diseases,187142
+Q3184856,Substance abuse,105282,41781,diseases,185264
+Q178623,Kidney stone disease,135835,51357,diseases;health,183052
+Q4539,Cooperative,137844,77992,money,181466
+Q127076,Vomiting,49191,16710,diseases,180930
+Q160796,Delirium,104174,41470,diseases,180429
+Q501561,Pericarditis,29778,11268,diseases,179837
+Q166231,Infection,119418,58833,diseases,179129
+Q47041,Biodiversity,180181,55803,science,178883
+Q281928,Social anxiety disorder,90513,32571,diseases,178166
+Q12167,Malnutrition,182983,67367,diseases;health,176371
+Q181032,Neurosis,105818,52517,diseases,174126
+Q836356,Croup,27748,12680,diseases,174103
+Q186676,Stuttering,67118,30886,diseases,173764
+Q1128431,Vaginismus,28212,10915,diseases,172835
+Q28693,Miscarriage,114105,38533,diseases,172479
+Q1216998,Neoplasm,54755,20941,diseases,172354
+Q68104,Reservation in India,89803,34753,rights,170144
+Q29137,Cybercrime,102149,45950,science,169946
+Q83323,Fertilizer,175438,48715,agriculture,169113
+Q134859,Whooping cough,49083,15341,diseases,168980
+Q8068,Flood,70099,37437,science,167070
+Q221441,Pellagra,45695,21136,diseases,166619
+Q169940,Deforestation,189699,65790,science,165618
+Q624497,Altitude sickness,49082,22109,diseases,164612
+Q81041,Water cycle,43806,18412,science,164133
+Q1229994,Paranoia,39337,20313,diseases,163741
+Q20579501,Transsexual,95812,40516,diseases,161660
+Q220989,Nystagmus,43697,15845,diseases,160600
+Q18175130,Swachh Bharat Mission,85687,29911,rights,160311
+Q80962,Animal husbandry,74982,33443,agriculture,159571
+Q935129,Postpartum depression,161084,69393,health,159567
+Q201180,Varicose veins,46142,18443,diseases,158500
+Q373822,Eating disorder,225638,85936,diseases,156708
+Q791974,Mutual fund,32065,22089,money,155444
+Q180388,Waste management,91371,40776,science,153955
+Q41171,Unemployment,148052,76449,money,153641
+Q9687,Traffic collision,115478,48109,diseases,153210
+Q55604588,Ayushman Bharat Yojana,45143,11310,rights,152288
+Q2732840,Gram panchayat,12893,4515,rights,151674
+Q103177,SARS,64189,20265,diseases,151408
+Q205972,Alcohol intoxication,51498,17107,diseases,150910
+Q180007,Syncope (medicine),58386,29848,diseases,150627
+Q468787,Hematoma,8520,3368,diseases,150308
+Q1350326,Frostbite,37697,16216,diseases,148499
+Q160105,Cervical cancer,123315,38825,health,148059
+Q684924,Rheumatism,11362,4252,diseases,147711
+Q736715,Chronic kidney disease,95111,33661,health,147291
+Q107211,Jute,28317,12082,agriculture,147028
+Q959606,Compound interest,19078,13989,money,144548
+Q184084,Thiamine deficiency,59370,25345,diseases,144160
+Q178061,Shock (circulatory),51703,23397,diseases,143129
+Q853930,Starvation,34823,15014,diseases,143110
+Q261327,Thrombosis,49398,19135,diseases,140903
+Q326921,Concussion,122480,44968,diseases,139748
+Q222634,Cleft lip and cleft palate,98674,40759,diseases,138981
+Q81938,Pain,107105,41306,diseases,138175
+Q181391,Hair loss,52765,24916,diseases,137644
+Q388626,Sleepwalking,54609,25043,diseases,137248
+Q692077,Nevus,13549,5475,diseases,136508
+Q478389,Kyphosis,21055,9600,diseases,133360
+Q281490,Urinary incontinence,74229,30300,diseases,132350
+Q170518,Burn,84434,30143,diseases,132090
+Q133772,Tooth decay,128811,52749,diseases,131801
+Q193607,Idiot,17576,6295,diseases,130950
+Q192102,Skin cancer,60484,23143,diseases,130568
+Q188008,Shortness of breath,54165,20719,diseases,129846
+Q58952,Hiccup,29552,10397,diseases,129286
+Q207334,Hangover,60269,26139,diseases,129081
+Q122224,Birth control,157887,47981,health,129043
+Q8161,Tax,80557,37572,money,127917
+Q1285406,Indian passport,76868,17416,rights,127775
+Q42982,Allergy,132072,46232,diseases,125153
+Q40015,Solar energy,77341,34977,science,125090
+Q382370,Mpox,96906,29089,diseases,124600
+Q131327,Homelessness,242857,109980,diseases,123741
+Q632559,Pigeon pea,74006,20937,agriculture,123021
+Q552348,Eclampsia,52199,19676,diseases,122156
+Q157661,Hepatitis A,53546,15438,diseases;health,121779
+Q166019,Bleeding,21955,12570,diseases,121663
+Q697117,Disc herniation,58414,26102,diseases,121556
+Q506659,Benign prostatic hyperplasia,112076,27542,diseases,121022
+Q206060,Scar,54276,19501,diseases,120950
+Q500816,Polyendocrine metabolic ovarian syndrome,71180,33797,diseases;health,119995
+Q626608,Life insurance,52968,36275,money,119717
+Q647099,Hemoptysis,18603,5094,diseases,119186
+Q275419,Hypotension,45707,14575,diseases,118817
+Q183425,Abdominal pain,46486,15609,diseases,118817
+Q327988,Occupational burnout,117764,41747,diseases,118806
+Q9690,Fatigue,121581,25029,diseases,116965
+Q210975,Mycoplasma,42043,10429,diseases,115818
+Q220783,Arachnophobia,22052,7512,diseases,115513
+Q1381652,Oral rehydration therapy,48176,20453,health,114329
+Q153861,Tularemia,34912,14018,diseases,113948
+Q132580,Recycling,141533,62305,science,113554
+Q3345045,Literacy in India,65939,27240,science,113371
+Q245319,Midday Meal Scheme,42456,17912,rights,111863
+Q1143900,Panchayati raj in India,30612,16926,rights,111489
+Q66055,Fraction,69631,50754,science,110903
+Q92251,Noise pollution,122673,54599,diseases,110588
+Q272436,Allergic rhinitis,62449,27016,diseases,110580
+Q591305,Indian elephant,40768,19357,science,110163
+Q276469,Blister,15256,8618,diseases,110154
+Q852163,Low back pain,119227,43954,diseases,109525
+Q43059,Drought,81838,30921,agriculture,109524
+Q162272,Viral hemorrhagic fever,25452,10607,diseases,108997
+Q520127,Periodontal disease,82729,35814,diseases,107790
+Q43987,Avian influenza,60895,23920,diseases,107482
+Q17085657,Pradhan Mantri Awas Yojana,15782,8929,rights,106533
+Q142807,Floater,33606,15219,diseases,106158
+Q186228,Minimum wage,155958,66461,money,105560
+Q156223,Pension,87513,44002,money,104876
+Q7212330,Tobacco smoking,130976,48452,health,104564
+Q86,Headache,84523,32578,diseases,103765
+Q194041,Phenylketonuria,61017,22569,diseases,102699
+Q2138622,Nutrition,37898,20821,science,102674
+Q131656,Pesticide,101213,39344,agriculture,100494
+Q737460,Visual impairment,96818,46046,diseases,100382
+Q11453,Irrigation,85416,47894,agriculture,99165
+Q22222755,Skill India,9145,4926,rights,98375
+Q50840653,Pearl millet,26666,11130,agriculture,98012
+Q133981,First aid,48659,27199,health,97142
+Q741713,Panic disorder,85797,33691,diseases,95990
+Q537297,Heartburn,35854,16120,diseases,95879
+Q574491,Bruise,24705,13121,diseases,95668
+Q17633938,Pradhan Mantri Jan Dhan Yojana,16932,6303,rights,94609
+Q275466,Embolism,9187,5278,diseases,92938
+Q504781,Brassica juncea,21011,6002,agriculture,92880
+Q689985,Lipoma,29394,8905,diseases,92862
+Q468433,Anosmia,43821,11911,diseases,92696
+Q244404,Electrical injury,54608,28318,diseases,92268
+Q220551,Diabetes insipidus,39227,14866,diseases,91296
+Q11229,Percentage,22173,13941,science,91059
+Q337554,Heat stroke,30459,15137,diseases;health,91013
+Q718113,Weight loss,54401,15803,diseases,90964
+Q165647,Organic farming,175902,79300,agriculture,90928
+Q373597,Hematuria,30066,16316,diseases,90863
+Q2725604,"Right to Information Act, 2005",37298,14942,rights,90154
+Q194290,Dehydration,35492,11471,diseases;health,89968
+Q1143025,Oral cancer,82782,31272,health,89671
+Q3100540,Green Revolution in India,19441,10405,agriculture,89552
+Q1194557,Laryngitis,27116,12312,diseases,89530
+Q6452285,Ulcer (dermatology),12554,7391,diseases,86864
+Q187882,Freckle,11107,5335,diseases,86180
+Q4138762,Vitamin D deficiency,68897,25743,health,84824
+Q176353,Beekeeping,95267,41414,agriculture,84017
+Q192579,Jet lag,46220,22060,diseases,84012
+Q223907,Tremor,38453,20537,diseases,83724
+Q932258,Finger millet,34669,18373,agriculture,82580
+Q318005,Nocturnal enuresis,56581,23620,diseases,82032
+Q179399,Infertility,87347,34750,diseases,81943
+Q7202090,Plastic pollution,173175,68333,science,81914
+Q64513386,Bulimia,81274,31071,diseases,81474
+Q65090154,Pradhan Mantri Fasal Bima Yojana,15413,9923,agriculture,79835
+Q319595,Presbyopia,33053,14357,diseases,78949
+Q466475,Trance,49604,28852,diseases,78126
+Q653200,Flat feet,25009,12845,diseases,76621
+Q804521,Bacterial vaginosis,56995,15268,diseases,76089
+Q186892,Claustrophobia,29791,22592,diseases,76019
+Q3153794,Interest,1200,1093,money,75522
+Q18124504,Digital India,17978,7262,rights,75158
+Q1419347,Postpartum infections,40747,18403,diseases,74567
+Q622604,Pyromania,23477,11465,diseases,74296
+Q68854,Snakebite,93090,39587,diseases;health,72828
+Q19315768,Sukanya Samriddhi Account,20737,8379,rights,72548
+Q33525,Carcinoma,31655,15446,diseases,72474
+Q649717,Sunburn,57370,22809,diseases,72266
+Q192995,Vaccination,100545,35822,health,71575
+Q199602,Itch,34727,14625,diseases,71305
+Q334911,Health insurance,100717,52829,money,70728
+Q189539,Loan,19251,10155,money,70223
+Q1229911,Food security,166575,71795,agriculture,70209
+Q191258,Crop rotation,41901,22405,agriculture,70176
+Q21698220,Antimicrobial resistance,227871,87501,health,69742
+Q676459,Bank account,6650,4198,money,69268
+Q114085,Rhinitis,34628,11878,diseases,67397
+Q184753,Wound,52727,28637,diseases,67299
+Q738292,Japanese encephalitis,39226,14992,health,66743
+Q954674,Iron-deficiency anemia,64650,27982,health,66058
+Q202013,Nosebleed,33970,14357,diseases,65749
+Q19803580,Premiership of Narendra Modi,177891,51350,rights,64704
+Q693058,Chest pain,67440,31433,diseases,64549
+Q68833,Bone fracture,51833,22403,diseases,63520
+Q1194496,Scrub typhus,29468,9331,health,63266
+Q19600468,Beti Bachao Beti Padhao,23717,7290,rights,62528
+Q816422,Dysmenorrhea,48732,18273,diseases,61699
+Q17077477,Ration card (India),25844,13093,rights,61223
+Q4698355,Air pollution in India,116475,21268,science,60705
+Q36855,Swine influenza,84480,34859,diseases,59987
+Q846227,Antiviral drug,67147,31101,diseases,59938
+Q653197,Rash,18759,3772,diseases,59931
+Q16408,Bad breath,47890,27524,diseases,59850
+Q188506,Online banking,47464,24677,money,59729
+Q926217,Microfinance,111184,66394,money,56795
+Q159421,Savings account,7816,4272,money,55678
+Q835061,Mastitis,48102,22582,diseases,55564
+Q19359283,DigiLocker,14691,5381,rights,54462
+Q16056283,Child marriage in India,34893,18240,rights,54093
+Q3180893,"Right of Children to Free and Compulsory Education Act, 2009",33478,18026,rights,53633
+Q574360,Spasm,6505,2110,diseases,52863
+Q14096331,Dairy farming,78565,46208,agriculture,52846
+Q17052027,Dowry system in India,51993,21257,rights,52391
+Q746694,Drip irrigation,26261,17446,agriculture,51574
+Q12133,Deafness,18814,9285,diseases,50374
+Q552461,Hand washing,76807,29645,health,50363
+Q1109680,Small business,65877,39803,money,49995
+Q2046113,Visceral leishmaniasis,80415,26594,health,49233
+Q209789,Belching,22086,8157,diseases,48710
+Q246068,Cysticercosis,58169,19738,diseases,47592
+Q7758678,Nyctalopia,10843,5421,diseases,47456
+Q192100,Lymphatic filariasis,42329,19981,health,46897
+Q177254,Farsightedness,23698,9967,diseases,44459
+Q19883606,Atal Pension Yojana,12406,4071,rights,43344
+Q889503,Soil erosion,127376,31809,agriculture,42696
+Q2715913,Fall armyworm,51867,21035,agriculture,41736
+Q676191,Vaginitis,31758,12729,diseases,40839
+Q205835,Snoring,59163,32912,diseases,40280
+Q24908602,Pradhan Mantri Ujjwala Yojana,22218,5617,rights,39015
+Q131749,Anorexia,177513,70206,diseases,37727
+Q16238202,"Protection of Women from Domestic Violence Act, 2005",18253,9374,rights,36994
+Q2723740,Income tax in India,28172,13708,rights,36723
+Q185089,Acidosis,11808,6993,diseases,36309
+Q272741,Adenoma,12959,7766,diseases,35744
+Q3610538,Public interest litigation in India,26442,18072,rights,34931
+Q85765724,Jal Jeevan Mission,17505,4733,rights,33977
+Q326643,Hepatitis E,64730,18739,diseases,33462
+Q19895373,Pradhan Mantri Jeevan Jyoti Bima Yojana,11569,5507,rights,33384
+Q7628806,Stunted growth,80240,32862,health,32743
+Q143925,Toothache,92434,47665,diseases,32112
+Q470747,Sprain,27866,11112,diseases,31922
+Q2724674,Self-help group (finance),7087,3918,money,30154
+Q5453097,First information report,4102,1899,rights,29500
+Q60901,Public Distribution System (India),68029,37421,agriculture,28180
+Q202080,Soil fertility,63475,19962,agriculture,27237
+Q13114450,"Protection of Children from Sexual Offences Act, 2012",26536,9560,rights,27138
+Q66809767,"Consumer Protection Act, 2019",8353,3380,rights,27122
+Q19883848,Pradhan Mantri Suraksha Bima Yojana,10812,3451,rights,25728
+Q8071861,Zika fever,134240,36568,diseases,25726
+Q193078,Injury in humans,60653,28248,diseases,25590
+Q1428431,Integrated Child Development Services,13523,5200,rights,23286
+Q850171,Job interview,183189,94711,money,22527
+Q55379706,Minimum support price (India),26506,12144,agriculture,21742
+Q15056197,"National Food Security Act, 2013",36645,19926,rights,21451
+Q61357997,Startup India,9055,3508,rights,20868
+Q525309,Integrated pest management,72139,29516,agriculture,19871
+Q13114470,Lok Adalat,13136,7180,rights,18995
+Q324509,Joint dislocation,38666,15446,diseases,18027
+Q3345469,Directive Principles in India,29225,16336,rights,18013
+Q194435,Vitamin deficiency,50353,12382,diseases,17766
+Q3308829,Prenatal care,43443,20117,health,17419
+Q640285,Time deposit,5657,2378,money,13975
+Q193918,Boil (infection),13426,5618,diseases,13033
+Q3525860,Personal budget,8357,4833,money,9350
+Q2006818,Skeletal muscle cramp,19283,7264,diseases,9189
+Q6416396,Kisan Credit Card,2423,1307,agriculture,7320
+Q19898423,Soil Health Card Scheme,4165,1931,agriculture,4956

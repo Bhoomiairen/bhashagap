@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BhashaGap: India's Language Knowledge Gap</title>
+  <meta name="description" content="How much essential knowledge is missing from Wikipedia in 22 Indian languages, and which articles to write first.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+Ol+Chiki&family=Noto+Sans+Meetei+Mayek&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <div id="demo-banner" class="demo-banner" hidden>
+    <strong>Demo data.</strong> These numbers are randomly generated so the page has something to show.
+    Run <code>python -m bhashagap run</code> to measure the real thing.
+  </div>
+
+  <header class="masthead">
+    <div class="wrap masthead-row">
+      <a class="wordmark" href="#top">Bhasha<span>Gap</span></a>
+      <nav>
+        <a href="#languages">Languages</a>
+        <a href="#gaps">Gaps</a>
+        <a href="#explore">Write first</a>
+        <a href="#lookup">Look up</a>
+        <a href="#method">Method</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="intro wrap">
+      <p class="kicker">A data project on Indian-language Wikipedia</p>
+      <h1 id="headline">How much of what you need to know exists in your language?</h1>
+      <p class="lede" id="lede">Loading…</p>
+      <dl class="facts" id="facts"></dl>
+    </section>
+
+    <section class="wrap" id="languages">
+      <div class="section-head">
+        <span class="num">01</span>
+        <div>
+          <h2>Twenty-two languages, one yardstick</h2>
+          <p class="note">For every topic we check whether an article exists and how much of the English article's content it has.
+            Topics people read more count for more. 100 would mean “as good as English”.</p>
+        </div>
+      </div>
+      <div class="controls" role="tablist" aria-label="Measure">
+        <button role="tab" data-metric="access" aria-selected="true">Knowledge Access Score</button>
+        <button role="tab" data-metric="coverage">Topics with any article</button>
+        <button role="tab" data-metric="speakersPerArticle">Speakers per article</button>
+      </div>
+      <p class="metric-help" id="metric-help"></p>
+      <div id="bars" class="bars" aria-live="polite"></div>
+    </section>
+
+    <section class="wrap wide" id="gaps">
+      <div class="section-head">
+        <span class="num">02</span>
+        <div>
+          <h2>Where the gaps are</h2>
+          <p class="note">Share of topics in each area that have <em>any</em> article. Darker is better covered.
+            Read across a row to see a language's blind spots.</p>
+        </div>
+      </div>
+      <div class="heat-scroll"><div id="heatmap" class="heatmap"></div></div>
+      <div class="legend" id="heat-legend"></div>
+    </section>
+
+    <section class="wrap" id="explore">
+      <div class="section-head">
+        <span class="num">03</span>
+        <div>
+          <h2>What to write first</h2>
+          <p class="note">Missing articles and stubs, ordered by how many people read the topic in English.
+            If you write for a language Wikipedia, start at the top.</p>
+        </div>
+      </div>
+      <label class="picker">Language
+        <select id="lang-select"></select>
+      </label>
+      <div id="lang-panel" class="lang-panel"></div>
+    </section>
+
+    <section class="wrap" id="lookup">
+      <div class="section-head">
+        <span class="num">04</span>
+        <div>
+          <h2>Look up a topic</h2>
+          <p class="note">See which languages have it, and how complete each article is.</p>
+        </div>
+      </div>
+      <input id="topic-search" class="search" type="search" placeholder="Try “dengue”, “rice” or “right to information”" autocomplete="off">
+      <ul id="topic-results" class="topic-results"></ul>
+      <div id="topic-detail"></div>
+    </section>
+
+    <section class="wrap method" id="method">
+      <div class="section-head">
+        <span class="num">05</span>
+        <div><h2>How this was measured</h2></div>
+      </div>
+      <div class="prose">
+        <p><strong>Topics.</strong> <span id="m-topics"></span> topics in six areas: health, farming and food, government schemes and rights,
+          science and environment, money and work, plus the 300 diseases with an ICD-10 code that the most Wikipedias write about
+          (found with a Wikidata SPARQL query).</p>
+        <p><strong>Does an article exist?</strong> From Wikidata, which links every topic to its article in each language.</p>
+        <p><strong>How complete is it?</strong> Article size compared with the English article. Indian scripts take about three bytes per
+          letter (Urdu, Sindhi and Kashmiri about two), so sizes are converted to letters first. Below 15% of the English length counts as a
+          <span class="tag stub">stub</span>, below 50% as <span class="tag partial">partial</span>, and anything more as
+          <span class="tag good">good</span>.</p>
+        <p><strong>What do people want to read?</strong> Twelve months of English Wikipedia page views for each topic (<span id="m-period"></span>).
+          The Knowledge Access Score weights each topic by these views.</p>
+        <p><strong>Limits.</strong> Length is only a rough stand-in for quality. A long article can be out of date and a short one can be
+          excellent. English page views reflect readers worldwide, not only in India. Speaker numbers are approximate first-language figures
+          from the 2011 Census, and Bhojpuri speakers are counted under Hindi in the Census.</p>
+        <p class="small">Data: Wikidata, Wikipedia and Wikimedia pageviews (CC BY-SA / CC0). Last updated <span id="m-updated"></span>.
+          Full dataset and code on <a href="https://github.com/Bhoomiairen/bhashagap">GitHub</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p>Made by Bhoomi Airen, B.Tech Computer Engineering, MPSTME NMIMS.</p>
+  </footer>
+
+  <div id="tooltip" class="tooltip" role="status" hidden></div>
+  <script src="app.js"></script>
+</body>
+</html>

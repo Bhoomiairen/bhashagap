@@ -1,0 +1,1524 @@
+{
+ "meta": {
+  "run_at": "2026-09-30T11:01:26",
+  "demo": false,
+  "period_start": "202509",
+  "period_end": "202608",
+  "api_requests": "9954",
+  "topics": 509,
+  "articles": 4270,
+  "missingPairs": 6928,
+  "pairs": 11198,
+  "languages": 22
+ },
+ "languages": [
+  {
+   "code": "bn",
+   "name": "Bengali",
+   "native": "বাংলা",
+   "script": "Bengali",
+   "speakers": 97.2,
+   "topics": 509,
+   "present": 377,
+   "missing": 132,
+   "stubs": 170,
+   "substantial": 207,
+   "coverage": 0.741,
+   "demandCoverage": 0.848,
+   "depth": 0.315,
+   "fresh": 0.66,
+   "views": 982043,
+   "access": 28.6,
+   "speakersPerArticle": 257825.0
+  },
+  {
+   "code": "kn",
+   "name": "Kannada",
+   "native": "ಕನ್ನಡ",
+   "script": "Kannada",
+   "speakers": 43.7,
+   "topics": 509,
+   "present": 268,
+   "missing": 241,
+   "stubs": 91,
+   "substantial": 177,
+   "coverage": 0.527,
+   "demandCoverage": 0.637,
+   "depth": 0.388,
+   "fresh": 1.0,
+   "views": 604694,
+   "access": 23.9,
+   "speakersPerArticle": 163060.0
+  },
+  {
+   "code": "hi",
+   "name": "Hindi",
+   "native": "हिन्दी",
+   "script": "Devanagari",
+   "speakers": 528.3,
+   "topics": 509,
+   "present": 452,
+   "missing": 57,
+   "stubs": 235,
+   "substantial": 217,
+   "coverage": 0.888,
+   "demandCoverage": 0.934,
+   "depth": 0.255,
+   "fresh": 0.447,
+   "views": 2917703,
+   "access": 23.4,
+   "speakersPerArticle": 1168805.0
+  },
+  {
+   "code": "ta",
+   "name": "Tamil",
+   "native": "தமிழ்",
+   "script": "Tamil",
+   "speakers": 69.0,
+   "topics": 509,
+   "present": 385,
+   "missing": 124,
+   "stubs": 190,
+   "substantial": 195,
+   "coverage": 0.756,
+   "demandCoverage": 0.814,
+   "depth": 0.277,
+   "fresh": 0.6,
+   "views": 818664,
+   "access": 22.2,
+   "speakersPerArticle": 179221.0
+  },
+  {
+   "code": "te",
+   "name": "Telugu",
+   "native": "తెలుగు",
+   "script": "Telugu",
+   "speakers": 81.1,
+   "topics": 509,
+   "present": 358,
+   "missing": 151,
+   "stubs": 229,
+   "substantial": 129,
+   "coverage": 0.703,
+   "demandCoverage": 0.855,
+   "depth": 0.181,
+   "fresh": 0.601,
+   "views": 472975,
+   "access": 15.9,
+   "speakersPerArticle": 226536.0
+  },
+  {
+   "code": "ml",
+   "name": "Malayalam",
+   "native": "മലയാളം",
+   "script": "Malayalam",
+   "speakers": 34.8,
+   "topics": 509,
+   "present": 315,
+   "missing": 194,
+   "stubs": 171,
+   "substantial": 144,
+   "coverage": 0.619,
+   "demandCoverage": 0.739,
+   "depth": 0.222,
+   "fresh": 0.46,
+   "views": 557652,
+   "access": 14.7,
+   "speakersPerArticle": 110476.0
+  },
+  {
+   "code": "gu",
+   "name": "Gujarati",
+   "native": "ગુજરાતી",
+   "script": "Gujarati",
+   "speakers": 55.5,
+   "topics": 509,
+   "present": 112,
+   "missing": 397,
+   "stubs": 47,
+   "substantial": 65,
+   "coverage": 0.22,
+   "demandCoverage": 0.34,
+   "depth": 0.353,
+   "fresh": 0.562,
+   "views": 227760,
+   "access": 11.3,
+   "speakersPerArticle": 495536.0
+  },
+  {
+   "code": "or",
+   "name": "Odia",
+   "native": "ଓଡ଼ିଆ",
+   "script": "Odia",
+   "speakers": 37.5,
+   "topics": 509,
+   "present": 311,
+   "missing": 198,
+   "stubs": 241,
+   "substantial": 70,
+   "coverage": 0.611,
+   "demandCoverage": 0.757,
+   "depth": 0.133,
+   "fresh": 0.547,
+   "views": 81767,
+   "access": 8.8,
+   "speakersPerArticle": 120579.0
+  },
+  {
+   "code": "ur",
+   "name": "Urdu",
+   "native": "اردو",
+   "script": "Perso-Arabic",
+   "speakers": 50.8,
+   "topics": 509,
+   "present": 310,
+   "missing": 199,
+   "stubs": 264,
+   "substantial": 46,
+   "coverage": 0.609,
+   "demandCoverage": 0.76,
+   "depth": 0.095,
+   "fresh": 0.571,
+   "views": 159272,
+   "access": 7.7,
+   "speakersPerArticle": 163871.0
+  },
+  {
+   "code": "sd",
+   "name": "Sindhi",
+   "native": "سنڌي",
+   "script": "Perso-Arabic",
+   "speakers": 2.8,
+   "topics": 509,
+   "present": 127,
+   "missing": 382,
+   "stubs": 97,
+   "substantial": 30,
+   "coverage": 0.25,
+   "demandCoverage": 0.4,
+   "depth": 0.153,
+   "fresh": 0.614,
+   "views": 13830,
+   "access": 7.6,
+   "speakersPerArticle": 22047.0
+  },
+  {
+   "code": "mr",
+   "name": "Marathi",
+   "native": "मराठी",
+   "script": "Devanagari",
+   "speakers": 83.0,
+   "topics": 509,
+   "present": 228,
+   "missing": 281,
+   "stubs": 157,
+   "substantial": 71,
+   "coverage": 0.448,
+   "demandCoverage": 0.58,
+   "depth": 0.152,
+   "fresh": 0.303,
+   "views": 674826,
+   "access": 7.5,
+   "speakersPerArticle": 364035.0
+  },
+  {
+   "code": "pa",
+   "name": "Punjabi",
+   "native": "ਪੰਜਾਬੀ",
+   "script": "Gurmukhi",
+   "speakers": 33.1,
+   "topics": 509,
+   "present": 239,
+   "missing": 270,
+   "stubs": 176,
+   "substantial": 63,
+   "coverage": 0.47,
+   "demandCoverage": 0.593,
+   "depth": 0.132,
+   "fresh": 0.314,
+   "views": 82018,
+   "access": 6.5,
+   "speakersPerArticle": 138494.0
+  },
+  {
+   "code": "as",
+   "name": "Assamese",
+   "native": "অসমীয়া",
+   "script": "Bengali",
+   "speakers": 15.3,
+   "topics": 509,
+   "present": 173,
+   "missing": 336,
+   "stubs": 115,
+   "substantial": 58,
+   "coverage": 0.34,
+   "demandCoverage": 0.502,
+   "depth": 0.205,
+   "fresh": 0.595,
+   "views": 211887,
+   "access": 6.4,
+   "speakersPerArticle": 88439.0
+  },
+  {
+   "code": "ne",
+   "name": "Nepali",
+   "native": "नेपाली",
+   "script": "Devanagari",
+   "speakers": 2.9,
+   "topics": 509,
+   "present": 186,
+   "missing": 323,
+   "stubs": 143,
+   "substantial": 43,
+   "coverage": 0.365,
+   "demandCoverage": 0.51,
+   "depth": 0.117,
+   "fresh": 0.468,
+   "views": 70228,
+   "access": 5.0,
+   "speakersPerArticle": 15591.0
+  },
+  {
+   "code": "sa",
+   "name": "Sanskrit",
+   "native": "संस्कृतम्",
+   "script": "Devanagari",
+   "speakers": 0.02,
+   "topics": 509,
+   "present": 75,
+   "missing": 434,
+   "stubs": 55,
+   "substantial": 20,
+   "coverage": 0.147,
+   "demandCoverage": 0.292,
+   "depth": 0.15,
+   "fresh": 0.213,
+   "views": 12251,
+   "access": 3.0,
+   "speakersPerArticle": 267.0
+  },
+  {
+   "code": "tcy",
+   "name": "Tulu",
+   "native": "ತುಳು",
+   "script": "Kannada",
+   "speakers": 1.8,
+   "topics": 509,
+   "present": 43,
+   "missing": 466,
+   "stubs": 37,
+   "substantial": 6,
+   "coverage": 0.084,
+   "demandCoverage": 0.147,
+   "depth": 0.132,
+   "fresh": 0.93,
+   "views": 11632,
+   "access": 1.8,
+   "speakersPerArticle": 41860.0
+  },
+  {
+   "code": "bh",
+   "name": "Bhojpuri",
+   "native": "भोजपुरी",
+   "script": "Devanagari",
+   "speakers": 50.6,
+   "topics": 509,
+   "present": 89,
+   "missing": 420,
+   "stubs": 81,
+   "substantial": 8,
+   "coverage": 0.175,
+   "demandCoverage": 0.302,
+   "depth": 0.05,
+   "fresh": 0.371,
+   "views": 42921,
+   "access": 1.4,
+   "speakersPerArticle": 568539.0
+  },
+  {
+   "code": "sat",
+   "name": "Santali",
+   "native": "ᱥᱟᱱᱛᱟᱲᱤ",
+   "script": "Ol Chiki",
+   "speakers": 7.4,
+   "topics": 509,
+   "present": 57,
+   "missing": 452,
+   "stubs": 50,
+   "substantial": 7,
+   "coverage": 0.112,
+   "demandCoverage": 0.219,
+   "depth": 0.082,
+   "fresh": 0.298,
+   "views": 8197,
+   "access": 1.2,
+   "speakersPerArticle": 129825.0
+  },
+  {
+   "code": "ks",
+   "name": "Kashmiri",
+   "native": "کٲشُر",
+   "script": "Perso-Arabic",
+   "speakers": 6.8,
+   "topics": 509,
+   "present": 92,
+   "missing": 417,
+   "stubs": 92,
+   "substantial": 0,
+   "coverage": 0.181,
+   "demandCoverage": 0.374,
+   "depth": 0.027,
+   "fresh": 0.522,
+   "views": 10396,
+   "access": 1.0,
+   "speakersPerArticle": 73913.0
+  },
+  {
+   "code": "gom",
+   "name": "Konkani",
+   "native": "कोंकणी",
+   "script": "Devanagari",
+   "speakers": 2.3,
+   "topics": 509,
+   "present": 16,
+   "missing": 493,
+   "stubs": 12,
+   "substantial": 4,
+   "coverage": 0.031,
+   "demandCoverage": 0.086,
+   "depth": 0.144,
+   "fresh": 0.0,
+   "views": 3725,
+   "access": 0.9,
+   "speakersPerArticle": 143750.0
+  },
+  {
+   "code": "mai",
+   "name": "Maithili",
+   "native": "मैथिली",
+   "script": "Devanagari",
+   "speakers": 13.6,
+   "topics": 509,
+   "present": 41,
+   "missing": 468,
+   "stubs": 40,
+   "substantial": 1,
+   "coverage": 0.081,
+   "demandCoverage": 0.143,
+   "depth": 0.028,
+   "fresh": 0.293,
+   "views": 5726,
+   "access": 0.4,
+   "speakersPerArticle": 331707.0
+  },
+  {
+   "code": "mni",
+   "name": "Manipuri",
+   "native": "ꯃꯤꯇꯩꯂꯣꯟ",
+   "script": "Meitei",
+   "speakers": 1.8,
+   "topics": 509,
+   "present": 16,
+   "missing": 493,
+   "stubs": 16,
+   "substantial": 0,
+   "coverage": 0.031,
+   "demandCoverage": 0.073,
+   "depth": 0.017,
+   "fresh": 0.188,
+   "views": 5007,
+   "access": 0.1,
+   "speakersPerArticle": 112500.0
+  }
+ ],
+ "categories": [
+  {
+   "key": "agriculture",
+   "label": "Farming & food",
+   "count": 52
+  },
+  {
+   "key": "diseases",
+   "label": "Diseases (top 300)",
+   "count": 299
+  },
+  {
+   "key": "health",
+   "label": "Health",
+   "count": 69
+  },
+  {
+   "key": "money",
+   "label": "Money & work",
+   "count": 27
+  },
+  {
+   "key": "rights",
+   "label": "Schemes & rights",
+   "count": 47
+  },
+  {
+   "key": "science",
+   "label": "Science & environment",
+   "count": 46
+  }
+ ],
+ "categoryScores": [
+  {
+   "lang": "mr",
+   "category": "money",
+   "coverage": 0.593,
+   "access": 7.9,
+   "present": 16,
+   "topics": 27
+  },
+  {
+   "lang": "mr",
+   "category": "diseases",
+   "coverage": 0.284,
+   "access": 3.5,
+   "present": 85,
+   "topics": 299
+  },
+  {
+   "lang": "ur",
+   "category": "science",
+   "coverage": 0.891,
+   "access": 9.8,
+   "present": 41,
+   "topics": 46
+  },
+  {
+   "lang": "bh",
+   "category": "agriculture",
+   "coverage": 0.327,
+   "access": 4.5,
+   "present": 17,
+   "topics": 52
+  },
+  {
+   "lang": "pa",
+   "category": "agriculture",
+   "coverage": 0.788,
+   "access": 15.9,
+   "present": 41,
+   "topics": 52
+  },
+  {
+   "lang": "gom",
+   "category": "money",
+   "coverage": 0.0,
+   "access": 0.0,
+   "present": 0,
+   "topics": 27
+  },
+  {
+   "lang": "gom",
+   "category": "diseases",
+   "coverage": 0.01,
+   "access": 0.2,
+   "present": 3,
+   "topics": 299
+  },
+  {
+   "lang": "bn",
+   "category": "agriculture",
+   "coverage": 0.769,
+   "access": 28.4,
+   "present": 40,
+   "topics": 52
+  },
+  {
+   "lang": "ta",
+   "category": "science",
+   "coverage": 0.935,
+   "access": 27.1,
+   "present": 43,
+   "topics": 46
+  },
+  {
+   "lang": "kn",
+   "category": "agriculture",
+   "coverage": 0.692,
+   "access": 37.8,
+   "present": 36,
+   "topics": 52
+  },
+  {
+   "lang": "ks",
+   "category": "agriculture",
+   "coverage": 0.231,
+   "access": 0.4,
+   "present": 12,
+   "topics": 52
+  },
+  {
+   "lang": "tcy",
+   "category": "science",
+   "coverage": 0.239,
+   "access": 5.3,
+   "present": 11,
+   "topics": 46
+  },
+  {
+   "lang": "sa",
+   "category": "money",
+   "coverage": 0.037,
+   "access": 0.2,
+   "present": 1,
+   "topics": 27
+  },
+  {
+   "lang": "sa",
+   "category": "diseases",
+   "coverage": 0.064,
+   "access": 0.3,
+   "present": 19,
+   "topics": 299
+  },
+  {
+   "lang": "hi",
+   "category": "money",
+   "coverage": 0.889,
+   "access": 17.8,
+   "present": 24,
+   "topics": 27
+  },
+  {
+   "lang": "hi",
+   "category": "diseases",
+   "coverage": 0.866,
+   "access": 20.3,
+   "present": 259,
+   "topics": 299
+  },
+  {
+   "lang": "bn",
+   "category": "health",
+   "coverage": 0.913,
+   "access": 28.4,
+   "present": 63,
+   "topics": 69
+  },
+  {
+   "lang": "bn",
+   "category": "rights",
+   "coverage": 0.638,
+   "access": 35.6,
+   "present": 30,
+   "topics": 47
+  },
+  {
+   "lang": "kn",
+   "category": "health",
+   "coverage": 0.667,
+   "access": 33.5,
+   "present": 46,
+   "topics": 69
+  },
+  {
+   "lang": "kn",
+   "category": "rights",
+   "coverage": 0.489,
+   "access": 27.5,
+   "present": 23,
+   "topics": 47
+  },
+  {
+   "lang": "mai",
+   "category": "money",
+   "coverage": 0.0,
+   "access": 0.0,
+   "present": 0,
+   "topics": 27
+  },
+  {
+   "lang": "mai",
+   "category": "diseases",
+   "coverage": 0.04,
+   "access": 0.1,
+   "present": 12,
+   "topics": 299
+  },
+  {
+   "lang": "ks",
+   "category": "health",
+   "coverage": 0.29,
+   "access": 1.6,
+   "present": 20,
+   "topics": 69
+  },
+  {
+   "lang": "ks",
+   "category": "rights",
+   "coverage": 0.043,
+   "access": 0.7,
+   "present": 2,
+   "topics": 47
+  },
+  {
+   "lang": "sd",
+   "category": "money",
+   "coverage": 0.333,
+   "access": 2.7,
+   "present": 9,
+   "topics": 27
+  },
+  {
+   "lang": "sd",
+   "category": "diseases",
+   "coverage": 0.171,
+   "access": 1.7,
+   "present": 51,
+   "topics": 299
+  },
+  {
+   "lang": "te",
+   "category": "money",
+   "coverage": 0.667,
+   "access": 11.0,
+   "present": 18,
+   "topics": 27
+  },
+  {
+   "lang": "te",
+   "category": "diseases",
+   "coverage": 0.689,
+   "access": 10.9,
+   "present": 206,
+   "topics": 299
+  },
+  {
+   "lang": "bh",
+   "category": "health",
+   "coverage": 0.159,
+   "access": 0.4,
+   "present": 11,
+   "topics": 69
+  },
+  {
+   "lang": "bh",
+   "category": "rights",
+   "coverage": 0.298,
+   "access": 3.5,
+   "present": 14,
+   "topics": 47
+  },
+  {
+   "lang": "pa",
+   "category": "health",
+   "coverage": 0.594,
+   "access": 5.3,
+   "present": 41,
+   "topics": 69
+  },
+  {
+   "lang": "pa",
+   "category": "rights",
+   "coverage": 0.723,
+   "access": 20.8,
+   "present": 34,
+   "topics": 47
+  },
+  {
+   "lang": "te",
+   "category": "science",
+   "coverage": 0.891,
+   "access": 24.2,
+   "present": 41,
+   "topics": 46
+  },
+  {
+   "lang": "or",
+   "category": "health",
+   "coverage": 0.87,
+   "access": 19.8,
+   "present": 60,
+   "topics": 69
+  },
+  {
+   "lang": "or",
+   "category": "rights",
+   "coverage": 0.426,
+   "access": 14.5,
+   "present": 20,
+   "topics": 47
+  },
+  {
+   "lang": "ne",
+   "category": "agriculture",
+   "coverage": 0.635,
+   "access": 12.4,
+   "present": 33,
+   "topics": 52
+  },
+  {
+   "lang": "mni",
+   "category": "health",
+   "coverage": 0.014,
+   "access": 0.0,
+   "present": 1,
+   "topics": 69
+  },
+  {
+   "lang": "mni",
+   "category": "rights",
+   "coverage": 0.021,
+   "access": 0.0,
+   "present": 1,
+   "topics": 47
+  },
+  {
+   "lang": "mr",
+   "category": "science",
+   "coverage": 0.761,
+   "access": 14.4,
+   "present": 35,
+   "topics": 46
+  },
+  {
+   "lang": "ur",
+   "category": "money",
+   "coverage": 0.519,
+   "access": 6.9,
+   "present": 14,
+   "topics": 27
+  },
+  {
+   "lang": "ur",
+   "category": "diseases",
+   "coverage": 0.579,
+   "access": 5.7,
+   "present": 173,
+   "topics": 299
+  },
+  {
+   "lang": "or",
+   "category": "agriculture",
+   "coverage": 0.269,
+   "access": 2.4,
+   "present": 14,
+   "topics": 52
+  },
+  {
+   "lang": "ne",
+   "category": "health",
+   "coverage": 0.638,
+   "access": 5.8,
+   "present": 44,
+   "topics": 69
+  },
+  {
+   "lang": "ne",
+   "category": "rights",
+   "coverage": 0.213,
+   "access": 3.9,
+   "present": 10,
+   "topics": 47
+  },
+  {
+   "lang": "gom",
+   "category": "science",
+   "coverage": 0.174,
+   "access": 2.7,
+   "present": 8,
+   "topics": 46
+  },
+  {
+   "lang": "mni",
+   "category": "agriculture",
+   "coverage": 0.096,
+   "access": 0.5,
+   "present": 5,
+   "topics": 52
+  },
+  {
+   "lang": "hi",
+   "category": "science",
+   "coverage": 1.0,
+   "access": 24.6,
+   "present": 46,
+   "topics": 46
+  },
+  {
+   "lang": "gu",
+   "category": "health",
+   "coverage": 0.362,
+   "access": 18.4,
+   "present": 25,
+   "topics": 69
+  },
+  {
+   "lang": "gu",
+   "category": "rights",
+   "coverage": 0.191,
+   "access": 6.9,
+   "present": 9,
+   "topics": 47
+  },
+  {
+   "lang": "ml",
+   "category": "health",
+   "coverage": 0.826,
+   "access": 22.0,
+   "present": 57,
+   "topics": 69
+  },
+  {
+   "lang": "ml",
+   "category": "rights",
+   "coverage": 0.638,
+   "access": 21.7,
+   "present": 30,
+   "topics": 47
+  },
+  {
+   "lang": "as",
+   "category": "health",
+   "coverage": 0.58,
+   "access": 8.2,
+   "present": 40,
+   "topics": 69
+  },
+  {
+   "lang": "as",
+   "category": "rights",
+   "coverage": 0.532,
+   "access": 17.2,
+   "present": 25,
+   "topics": 47
+  },
+  {
+   "lang": "mai",
+   "category": "science",
+   "coverage": 0.217,
+   "access": 0.7,
+   "present": 10,
+   "topics": 46
+  },
+  {
+   "lang": "sat",
+   "category": "health",
+   "coverage": 0.159,
+   "access": 1.4,
+   "present": 11,
+   "topics": 69
+  },
+  {
+   "lang": "sat",
+   "category": "rights",
+   "coverage": 0.128,
+   "access": 4.7,
+   "present": 6,
+   "topics": 47
+  },
+  {
+   "lang": "sd",
+   "category": "science",
+   "coverage": 0.652,
+   "access": 32.1,
+   "present": 30,
+   "topics": 46
+  },
+  {
+   "lang": "ta",
+   "category": "money",
+   "coverage": 0.704,
+   "access": 34.5,
+   "present": 19,
+   "topics": 27
+  },
+  {
+   "lang": "ta",
+   "category": "diseases",
+   "coverage": 0.689,
+   "access": 19.1,
+   "present": 206,
+   "topics": 299
+  },
+  {
+   "lang": "gu",
+   "category": "agriculture",
+   "coverage": 0.481,
+   "access": 15.2,
+   "present": 25,
+   "topics": 52
+  },
+  {
+   "lang": "ml",
+   "category": "agriculture",
+   "coverage": 0.808,
+   "access": 18.3,
+   "present": 42,
+   "topics": 52
+  },
+  {
+   "lang": "as",
+   "category": "agriculture",
+   "coverage": 0.423,
+   "access": 11.9,
+   "present": 22,
+   "topics": 52
+  },
+  {
+   "lang": "sat",
+   "category": "agriculture",
+   "coverage": 0.308,
+   "access": 2.9,
+   "present": 16,
+   "topics": 52
+  },
+  {
+   "lang": "tcy",
+   "category": "money",
+   "coverage": 0.0,
+   "access": 0.0,
+   "present": 0,
+   "topics": 27
+  },
+  {
+   "lang": "tcy",
+   "category": "diseases",
+   "coverage": 0.043,
+   "access": 0.6,
+   "present": 13,
+   "topics": 299
+  },
+  {
+   "lang": "sa",
+   "category": "science",
+   "coverage": 0.457,
+   "access": 5.6,
+   "present": 21,
+   "topics": 46
+  },
+  {
+   "lang": "ta",
+   "category": "health",
+   "coverage": 0.884,
+   "access": 37.5,
+   "present": 61,
+   "topics": 69
+  },
+  {
+   "lang": "ta",
+   "category": "rights",
+   "coverage": 0.894,
+   "access": 24.6,
+   "present": 42,
+   "topics": 47
+  },
+  {
+   "lang": "tcy",
+   "category": "health",
+   "coverage": 0.116,
+   "access": 0.9,
+   "present": 8,
+   "topics": 69
+  },
+  {
+   "lang": "tcy",
+   "category": "rights",
+   "coverage": 0.064,
+   "access": 2.8,
+   "present": 3,
+   "topics": 47
+  },
+  {
+   "lang": "ur",
+   "category": "health",
+   "coverage": 0.783,
+   "access": 6.7,
+   "present": 54,
+   "topics": 69
+  },
+  {
+   "lang": "ur",
+   "category": "rights",
+   "coverage": 0.511,
+   "access": 20.6,
+   "present": 24,
+   "topics": 47
+  },
+  {
+   "lang": "ne",
+   "category": "money",
+   "coverage": 0.481,
+   "access": 4.1,
+   "present": 13,
+   "topics": 27
+  },
+  {
+   "lang": "ne",
+   "category": "diseases",
+   "coverage": 0.247,
+   "access": 2.6,
+   "present": 74,
+   "topics": 299
+  },
+  {
+   "lang": "hi",
+   "category": "health",
+   "coverage": 0.87,
+   "access": 33.8,
+   "present": 60,
+   "topics": 69
+  },
+  {
+   "lang": "hi",
+   "category": "rights",
+   "coverage": 1.0,
+   "access": 50.6,
+   "present": 47,
+   "topics": 47
+  },
+  {
+   "lang": "bn",
+   "category": "money",
+   "coverage": 0.741,
+   "access": 19.7,
+   "present": 20,
+   "topics": 27
+  },
+  {
+   "lang": "bn",
+   "category": "diseases",
+   "coverage": 0.706,
+   "access": 25.9,
+   "present": 211,
+   "topics": 299
+  },
+  {
+   "lang": "gu",
+   "category": "science",
+   "coverage": 0.565,
+   "access": 28.6,
+   "present": 26,
+   "topics": 46
+  },
+  {
+   "lang": "kn",
+   "category": "money",
+   "coverage": 0.63,
+   "access": 30.2,
+   "present": 17,
+   "topics": 27
+  },
+  {
+   "lang": "kn",
+   "category": "diseases",
+   "coverage": 0.435,
+   "access": 16.5,
+   "present": 130,
+   "topics": 299
+  },
+  {
+   "lang": "ml",
+   "category": "science",
+   "coverage": 0.957,
+   "access": 16.6,
+   "present": 44,
+   "topics": 46
+  },
+  {
+   "lang": "as",
+   "category": "science",
+   "coverage": 0.674,
+   "access": 5.8,
+   "present": 31,
+   "topics": 46
+  },
+  {
+   "lang": "mai",
+   "category": "health",
+   "coverage": 0.087,
+   "access": 0.2,
+   "present": 6,
+   "topics": 69
+  },
+  {
+   "lang": "mai",
+   "category": "rights",
+   "coverage": 0.064,
+   "access": 1.5,
+   "present": 3,
+   "topics": 47
+  },
+  {
+   "lang": "sat",
+   "category": "science",
+   "coverage": 0.283,
+   "access": 1.8,
+   "present": 13,
+   "topics": 46
+  },
+  {
+   "lang": "ks",
+   "category": "diseases",
+   "coverage": 0.154,
+   "access": 1.0,
+   "present": 46,
+   "topics": 299
+  },
+  {
+   "lang": "ks",
+   "category": "money",
+   "coverage": 0.0,
+   "access": 0.0,
+   "present": 0,
+   "topics": 27
+  },
+  {
+   "lang": "sd",
+   "category": "health",
+   "coverage": 0.435,
+   "access": 3.7,
+   "present": 30,
+   "topics": 69
+  },
+  {
+   "lang": "sd",
+   "category": "rights",
+   "coverage": 0.021,
+   "access": 0.1,
+   "present": 1,
+   "topics": 47
+  },
+  {
+   "lang": "sa",
+   "category": "agriculture",
+   "coverage": 0.327,
+   "access": 5.5,
+   "present": 17,
+   "topics": 52
+  },
+  {
+   "lang": "bn",
+   "category": "science",
+   "coverage": 0.957,
+   "access": 39.4,
+   "present": 44,
+   "topics": 46
+  },
+  {
+   "lang": "ta",
+   "category": "agriculture",
+   "coverage": 0.846,
+   "access": 24.2,
+   "present": 44,
+   "topics": 52
+  },
+  {
+   "lang": "gu",
+   "category": "money",
+   "coverage": 0.259,
+   "access": 17.5,
+   "present": 7,
+   "topics": 27
+  },
+  {
+   "lang": "gu",
+   "category": "diseases",
+   "coverage": 0.107,
+   "access": 5.7,
+   "present": 32,
+   "topics": 299
+  },
+  {
+   "lang": "kn",
+   "category": "science",
+   "coverage": 0.848,
+   "access": 36.3,
+   "present": 39,
+   "topics": 46
+  },
+  {
+   "lang": "ml",
+   "category": "money",
+   "coverage": 0.444,
+   "access": 15.8,
+   "present": 12,
+   "topics": 27
+  },
+  {
+   "lang": "ml",
+   "category": "diseases",
+   "coverage": 0.518,
+   "access": 12.3,
+   "present": 155,
+   "topics": 299
+  },
+  {
+   "lang": "as",
+   "category": "money",
+   "coverage": 0.222,
+   "access": 2.8,
+   "present": 6,
+   "topics": 27
+  },
+  {
+   "lang": "as",
+   "category": "diseases",
+   "coverage": 0.234,
+   "access": 4.6,
+   "present": 70,
+   "topics": 299
+  },
+  {
+   "lang": "sat",
+   "category": "money",
+   "coverage": 0.037,
+   "access": 0.2,
+   "present": 1,
+   "topics": 27
+  },
+  {
+   "lang": "sat",
+   "category": "diseases",
+   "coverage": 0.054,
+   "access": 0.5,
+   "present": 16,
+   "topics": 299
+  },
+  {
+   "lang": "ks",
+   "category": "science",
+   "coverage": 0.522,
+   "access": 1.1,
+   "present": 24,
+   "topics": 46
+  },
+  {
+   "lang": "tcy",
+   "category": "agriculture",
+   "coverage": 0.231,
+   "access": 3.2,
+   "present": 12,
+   "topics": 52
+  },
+  {
+   "lang": "ur",
+   "category": "agriculture",
+   "coverage": 0.615,
+   "access": 9.5,
+   "present": 32,
+   "topics": 52
+  },
+  {
+   "lang": "bh",
+   "category": "science",
+   "coverage": 0.761,
+   "access": 3.5,
+   "present": 35,
+   "topics": 46
+  },
+  {
+   "lang": "or",
+   "category": "money",
+   "coverage": 0.185,
+   "access": 6.1,
+   "present": 5,
+   "topics": 27
+  },
+  {
+   "lang": "or",
+   "category": "diseases",
+   "coverage": 0.732,
+   "access": 8.8,
+   "present": 219,
+   "topics": 299
+  },
+  {
+   "lang": "pa",
+   "category": "science",
+   "coverage": 0.848,
+   "access": 8.4,
+   "present": 39,
+   "topics": 46
+  },
+  {
+   "lang": "mni",
+   "category": "money",
+   "coverage": 0.037,
+   "access": 0.0,
+   "present": 1,
+   "topics": 27
+  },
+  {
+   "lang": "mni",
+   "category": "diseases",
+   "coverage": 0.007,
+   "access": 0.0,
+   "present": 2,
+   "topics": 299
+  },
+  {
+   "lang": "mr",
+   "category": "agriculture",
+   "coverage": 0.673,
+   "access": 11.9,
+   "present": 35,
+   "topics": 52
+  },
+  {
+   "lang": "te",
+   "category": "health",
+   "coverage": 0.855,
+   "access": 12.7,
+   "present": 59,
+   "topics": 69
+  },
+  {
+   "lang": "te",
+   "category": "rights",
+   "coverage": 0.617,
+   "access": 34.1,
+   "present": 29,
+   "topics": 47
+  },
+  {
+   "lang": "bh",
+   "category": "money",
+   "coverage": 0.185,
+   "access": 1.0,
+   "present": 5,
+   "topics": 27
+  },
+  {
+   "lang": "bh",
+   "category": "diseases",
+   "coverage": 0.043,
+   "access": 0.1,
+   "present": 13,
+   "topics": 299
+  },
+  {
+   "lang": "or",
+   "category": "science",
+   "coverage": 0.5,
+   "access": 6.8,
+   "present": 23,
+   "topics": 46
+  },
+  {
+   "lang": "pa",
+   "category": "money",
+   "coverage": 0.444,
+   "access": 3.8,
+   "present": 12,
+   "topics": 27
+  },
+  {
+   "lang": "pa",
+   "category": "diseases",
+   "coverage": 0.314,
+   "access": 3.3,
+   "present": 94,
+   "topics": 299
+  },
+  {
+   "lang": "gom",
+   "category": "agriculture",
+   "coverage": 0.096,
+   "access": 4.3,
+   "present": 5,
+   "topics": 52
+  },
+  {
+   "lang": "mni",
+   "category": "science",
+   "coverage": 0.152,
+   "access": 0.2,
+   "present": 7,
+   "topics": 46
+  },
+  {
+   "lang": "mr",
+   "category": "health",
+   "coverage": 0.681,
+   "access": 11.3,
+   "present": 47,
+   "topics": 69
+  },
+  {
+   "lang": "mr",
+   "category": "rights",
+   "coverage": 0.745,
+   "access": 14.5,
+   "present": 35,
+   "topics": 47
+  },
+  {
+   "lang": "te",
+   "category": "agriculture",
+   "coverage": 0.692,
+   "access": 25.0,
+   "present": 36,
+   "topics": 52
+  },
+  {
+   "lang": "ne",
+   "category": "science",
+   "coverage": 0.717,
+   "access": 8.6,
+   "present": 33,
+   "topics": 46
+  },
+  {
+   "lang": "gom",
+   "category": "health",
+   "coverage": 0.029,
+   "access": 0.4,
+   "present": 2,
+   "topics": 69
+  },
+  {
+   "lang": "gom",
+   "category": "rights",
+   "coverage": 0.0,
+   "access": 0.0,
+   "present": 0,
+   "topics": 47
+  },
+  {
+   "lang": "hi",
+   "category": "agriculture",
+   "coverage": 0.904,
+   "access": 18.9,
+   "present": 47,
+   "topics": 52
+  },
+  {
+   "lang": "mai",
+   "category": "agriculture",
+   "coverage": 0.25,
+   "access": 0.9,
+   "present": 13,
+   "topics": 52
+  },
+  {
+   "lang": "sd",
+   "category": "agriculture",
+   "coverage": 0.423,
+   "access": 8.0,
+   "present": 22,
+   "topics": 52
+  },
+  {
+   "lang": "sa",
+   "category": "health",
+   "coverage": 0.174,
+   "access": 0.8,
+   "present": 12,
+   "topics": 69
+  },
+  {
+   "lang": "sa",
+   "category": "rights",
+   "coverage": 0.213,
+   "access": 19.6,
+   "present": 10,
+   "topics": 47
+  }
+ ]
+}
